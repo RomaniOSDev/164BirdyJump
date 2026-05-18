@@ -1,0 +1,6 @@
+framework module Pods_164BirdyJump {
+  umbrella header "Pods-164BirdyJump-umbrella.h"
+
+  export *
+  module * { export * }
+}
