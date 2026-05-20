@@ -3,29 +3,147 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3003FE142FBE3AA60058EE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3003FE0A2FBE3AA60058EE20 /* Assets.xcassets */; };
+		3003FE162FBE3AA60058EE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3003FE0E2FBE3AA60058EE20 /* LaunchScreen.storyboard */; };
+		3003FE172FBE3AA60058EE20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3003FE102FBE3AA60058EE20 /* Main.storyboard */; };
+		3003FE182FBE3AA60058EE20 /* CalendarGateEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDBF2FBE3AA60058EE20 /* CalendarGateEvaluator.swift */; };
+		3003FE192FBE3AA60058EE20 /* DeferredLaunchCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDC02FBE3AA60058EE20 /* DeferredLaunchCanvas.swift */; };
+		3003FE1A2FBE3AA60058EE20 /* LaunchDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDC12FBE3AA60058EE20 /* LaunchDestination.swift */; };
+		3003FE1B2FBE3AA60058EE20 /* LaunchFlowDebugOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDC22FBE3AA60058EE20 /* LaunchFlowDebugOptions.swift */; };
+		3003FE1C2FBE3AA60058EE20 /* LaunchFlowLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDC32FBE3AA60058EE20 /* LaunchFlowLogger.swift */; };
+		3003FE1D2FBE3AA60058EE20 /* LaunchFlowResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDC42FBE3AA60058EE20 /* LaunchFlowResolver.swift */; };
+		3003FE1E2FBE3AA60058EE20 /* LaunchFlowSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDC52FBE3AA60058EE20 /* LaunchFlowSecrets.swift */; };
+		3003FE1F2FBE3AA60058EE20 /* LaunchSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDC62FBE3AA60058EE20 /* LaunchSessionStore.swift */; };
+		3003FE202FBE3AA60058EE20 /* LaunchStagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDC72FBE3AA60058EE20 /* LaunchStagingState.swift */; };
+		3003FE212FBE3AA60058EE20 /* RemoteEntryProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDC82FBE3AA60058EE20 /* RemoteEntryProbe.swift */; };
+		3003FE222FBE3AA60058EE20 /* RemoteEntryURLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDC92FBE3AA60058EE20 /* RemoteEntryURLComposer.swift */; };
+		3003FE232FBE3AA60058EE20 /* RootWindowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDCA2FBE3AA60058EE20 /* RootWindowPresenter.swift */; };
+		3003FE242FBE3AA60058EE20 /* WebDocumentSurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDCB2FBE3AA60058EE20 /* WebDocumentSurfaceView.swift */; };
+		3003FE252FBE3AA60058EE20 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDCD2FBE3AA60058EE20 /* Achievement.swift */; };
+		3003FE262FBE3AA60058EE20 /* GameLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDCE2FBE3AA60058EE20 /* GameLevel.swift */; };
+		3003FE272FBE3AA60058EE20 /* GameScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDCF2FBE3AA60058EE20 /* GameScore.swift */; };
+		3003FE282FBE3AA60058EE20 /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDD02FBE3AA60058EE20 /* GameSettings.swift */; };
+		3003FE292FBE3AA60058EE20 /* LevelTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDD12FBE3AA60058EE20 /* LevelTheme.swift */; };
+		3003FE2A2FBE3AA60058EE20 /* Obstacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDD22FBE3AA60058EE20 /* Obstacle.swift */; };
+		3003FE2B2FBE3AA60058EE20 /* AppMarketingCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDD42FBE3AA60058EE20 /* AppMarketingCopy.swift */; };
+		3003FE2C2FBE3AA60058EE20 /* BirdyDesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDD62FBE3AA60058EE20 /* BirdyDesignSystem.swift */; };
+		3003FE2D2FBE3AA60058EE20 /* Color+Birdy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDD82FBE3AA60058EE20 /* Color+Birdy.swift */; };
+		3003FE2E2FBE3AA60058EE20 /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDDA2FBE3AA60058EE20 /* DateFormatting.swift */; };
+		3003FE2F2FBE3AA60058EE20 /* DisplayLinkDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDDB2FBE3AA60058EE20 /* DisplayLinkDriver.swift */; };
+		3003FE302FBE3AA60058EE20 /* AppActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDDD2FBE3AA60058EE20 /* AppActions.swift */; };
+		3003FE312FBE3AA60058EE20 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDDE2FBE3AA60058EE20 /* AppLinks.swift */; };
+		3003FE322FBE3AA60058EE20 /* DebugConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDDF2FBE3AA60058EE20 /* DebugConfig.swift */; };
+		3003FE332FBE3AA60058EE20 /* OnboardingStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDE02FBE3AA60058EE20 /* OnboardingStorage.swift */; };
+		3003FE342FBE3AA60058EE20 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDE22FBE3AA60058EE20 /* GameViewModel.swift */; };
+		3003FE352FBE3AA60058EE20 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDE42FBE3AA60058EE20 /* AchievementsView.swift */; };
+		3003FE362FBE3AA60058EE20 /* BirdyAchievementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDE62FBE3AA60058EE20 /* BirdyAchievementCell.swift */; };
+		3003FE372FBE3AA60058EE20 /* BirdyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDE72FBE3AA60058EE20 /* BirdyCell.swift */; };
+		3003FE382FBE3AA60058EE20 /* BirdyLevelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDE82FBE3AA60058EE20 /* BirdyLevelCell.swift */; };
+		3003FE392FBE3AA60058EE20 /* BirdyScoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDE92FBE3AA60058EE20 /* BirdyScoreCell.swift */; };
+		3003FE3A2FBE3AA60058EE20 /* BirdyScreenLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDEA2FBE3AA60058EE20 /* BirdyScreenLayout.swift */; };
+		3003FE3B2FBE3AA60058EE20 /* BirdySliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDEB2FBE3AA60058EE20 /* BirdySliderCell.swift */; };
+		3003FE3C2FBE3AA60058EE20 /* BirdyToggleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDEC2FBE3AA60058EE20 /* BirdyToggleCell.swift */; };
+		3003FE3D2FBE3AA60058EE20 /* BirdyGlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDEE2FBE3AA60058EE20 /* BirdyGlassCard.swift */; };
+		3003FE3E2FBE3AA60058EE20 /* BirdyHUDChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDEF2FBE3AA60058EE20 /* BirdyHUDChip.swift */; };
+		3003FE3F2FBE3AA60058EE20 /* BirdyPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDF02FBE3AA60058EE20 /* BirdyPrimaryButton.swift */; };
+		3003FE402FBE3AA60058EE20 /* BirdyScreenHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDF12FBE3AA60058EE20 /* BirdyScreenHeader.swift */; };
+		3003FE412FBE3AA60058EE20 /* BirdySkyBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDF22FBE3AA60058EE20 /* BirdySkyBackground.swift */; };
+		3003FE422FBE3AA60058EE20 /* ThemedSkyBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDF32FBE3AA60058EE20 /* ThemedSkyBackground.swift */; };
+		3003FE432FBE3AA60058EE20 /* AnimatedBirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDF52FBE3AA60058EE20 /* AnimatedBirdView.swift */; };
+		3003FE442FBE3AA60058EE20 /* BirdyJumpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDF62FBE3AA60058EE20 /* BirdyJumpView.swift */; };
+		3003FE452FBE3AA60058EE20 /* GameOverOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDF72FBE3AA60058EE20 /* GameOverOverlay.swift */; };
+		3003FE462FBE3AA60058EE20 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDF82FBE3AA60058EE20 /* GameView.swift */; };
+		3003FE472FBE3AA60058EE20 /* LevelCompleteOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDF92FBE3AA60058EE20 /* LevelCompleteOverlay.swift */; };
+		3003FE482FBE3AA60058EE20 /* LevelSelectStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDFA2FBE3AA60058EE20 /* LevelSelectStrip.swift */; };
+		3003FE492FBE3AA60058EE20 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDFB2FBE3AA60058EE20 /* MainMenuView.swift */; };
+		3003FE4A2FBE3AA60058EE20 /* ObstacleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDFC2FBE3AA60058EE20 /* ObstacleView.swift */; };
+		3003FE4B2FBE3AA60058EE20 /* HighScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FDFE2FBE3AA60058EE20 /* HighScoresView.swift */; };
+		3003FE4C2FBE3AA60058EE20 /* LevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FE002FBE3AA60058EE20 /* LevelsView.swift */; };
+		3003FE4D2FBE3AA60058EE20 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FE022FBE3AA60058EE20 /* OnboardingPage.swift */; };
+		3003FE4E2FBE3AA60058EE20 /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FE032FBE3AA60058EE20 /* OnboardingPageView.swift */; };
+		3003FE4F2FBE3AA60058EE20 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FE042FBE3AA60058EE20 /* OnboardingView.swift */; };
+		3003FE502FBE3AA60058EE20 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FE062FBE3AA60058EE20 /* SettingsView.swift */; };
+		3003FE512FBE3AA60058EE20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FE092FBE3AA60058EE20 /* AppDelegate.swift */; };
+		3003FE522FBE3AA60058EE20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FE0B2FBE3AA60058EE20 /* ContentView.swift */; };
+		3003FE532FBE3AA60058EE20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FE112FBE3AA60058EE20 /* SceneDelegate.swift */; };
+		3003FE542FBE3AA60058EE20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003FE122FBE3AA60058EE20 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		3003FDBF2FBE3AA60058EE20 /* CalendarGateEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGateEvaluator.swift; sourceTree = "<group>"; };
+		3003FDC02FBE3AA60058EE20 /* DeferredLaunchCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredLaunchCanvas.swift; sourceTree = "<group>"; };
+		3003FDC12FBE3AA60058EE20 /* LaunchDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDestination.swift; sourceTree = "<group>"; };
+		3003FDC22FBE3AA60058EE20 /* LaunchFlowDebugOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowDebugOptions.swift; sourceTree = "<group>"; };
+		3003FDC32FBE3AA60058EE20 /* LaunchFlowLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowLogger.swift; sourceTree = "<group>"; };
+		3003FDC42FBE3AA60058EE20 /* LaunchFlowResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowResolver.swift; sourceTree = "<group>"; };
+		3003FDC52FBE3AA60058EE20 /* LaunchFlowSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowSecrets.swift; sourceTree = "<group>"; };
+		3003FDC62FBE3AA60058EE20 /* LaunchSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSessionStore.swift; sourceTree = "<group>"; };
+		3003FDC72FBE3AA60058EE20 /* LaunchStagingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchStagingState.swift; sourceTree = "<group>"; };
+		3003FDC82FBE3AA60058EE20 /* RemoteEntryProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryProbe.swift; sourceTree = "<group>"; };
+		3003FDC92FBE3AA60058EE20 /* RemoteEntryURLComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryURLComposer.swift; sourceTree = "<group>"; };
+		3003FDCA2FBE3AA60058EE20 /* RootWindowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWindowPresenter.swift; sourceTree = "<group>"; };
+		3003FDCB2FBE3AA60058EE20 /* WebDocumentSurfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebDocumentSurfaceView.swift; sourceTree = "<group>"; };
+		3003FDCD2FBE3AA60058EE20 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		3003FDCE2FBE3AA60058EE20 /* GameLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevel.swift; sourceTree = "<group>"; };
+		3003FDCF2FBE3AA60058EE20 /* GameScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScore.swift; sourceTree = "<group>"; };
+		3003FDD02FBE3AA60058EE20 /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		3003FDD12FBE3AA60058EE20 /* LevelTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelTheme.swift; sourceTree = "<group>"; };
+		3003FDD22FBE3AA60058EE20 /* Obstacle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obstacle.swift; sourceTree = "<group>"; };
+		3003FDD42FBE3AA60058EE20 /* AppMarketingCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMarketingCopy.swift; sourceTree = "<group>"; };
+		3003FDD62FBE3AA60058EE20 /* BirdyDesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdyDesignSystem.swift; sourceTree = "<group>"; };
+		3003FDD82FBE3AA60058EE20 /* Color+Birdy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Birdy.swift"; sourceTree = "<group>"; };
+		3003FDDA2FBE3AA60058EE20 /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
+		3003FDDB2FBE3AA60058EE20 /* DisplayLinkDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayLinkDriver.swift; sourceTree = "<group>"; };
+		3003FDDD2FBE3AA60058EE20 /* AppActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppActions.swift; sourceTree = "<group>"; };
+		3003FDDE2FBE3AA60058EE20 /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		3003FDDF2FBE3AA60058EE20 /* DebugConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugConfig.swift; sourceTree = "<group>"; };
+		3003FDE02FBE3AA60058EE20 /* OnboardingStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStorage.swift; sourceTree = "<group>"; };
+		3003FDE22FBE3AA60058EE20 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		3003FDE42FBE3AA60058EE20 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		3003FDE62FBE3AA60058EE20 /* BirdyAchievementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdyAchievementCell.swift; sourceTree = "<group>"; };
+		3003FDE72FBE3AA60058EE20 /* BirdyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdyCell.swift; sourceTree = "<group>"; };
+		3003FDE82FBE3AA60058EE20 /* BirdyLevelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdyLevelCell.swift; sourceTree = "<group>"; };
+		3003FDE92FBE3AA60058EE20 /* BirdyScoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdyScoreCell.swift; sourceTree = "<group>"; };
+		3003FDEA2FBE3AA60058EE20 /* BirdyScreenLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdyScreenLayout.swift; sourceTree = "<group>"; };
+		3003FDEB2FBE3AA60058EE20 /* BirdySliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdySliderCell.swift; sourceTree = "<group>"; };
+		3003FDEC2FBE3AA60058EE20 /* BirdyToggleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdyToggleCell.swift; sourceTree = "<group>"; };
+		3003FDEE2FBE3AA60058EE20 /* BirdyGlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdyGlassCard.swift; sourceTree = "<group>"; };
+		3003FDEF2FBE3AA60058EE20 /* BirdyHUDChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdyHUDChip.swift; sourceTree = "<group>"; };
+		3003FDF02FBE3AA60058EE20 /* BirdyPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdyPrimaryButton.swift; sourceTree = "<group>"; };
+		3003FDF12FBE3AA60058EE20 /* BirdyScreenHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdyScreenHeader.swift; sourceTree = "<group>"; };
+		3003FDF22FBE3AA60058EE20 /* BirdySkyBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdySkyBackground.swift; sourceTree = "<group>"; };
+		3003FDF32FBE3AA60058EE20 /* ThemedSkyBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemedSkyBackground.swift; sourceTree = "<group>"; };
+		3003FDF52FBE3AA60058EE20 /* AnimatedBirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBirdView.swift; sourceTree = "<group>"; };
+		3003FDF62FBE3AA60058EE20 /* BirdyJumpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdyJumpView.swift; sourceTree = "<group>"; };
+		3003FDF72FBE3AA60058EE20 /* GameOverOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverOverlay.swift; sourceTree = "<group>"; };
+		3003FDF82FBE3AA60058EE20 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		3003FDF92FBE3AA60058EE20 /* LevelCompleteOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCompleteOverlay.swift; sourceTree = "<group>"; };
+		3003FDFA2FBE3AA60058EE20 /* LevelSelectStrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectStrip.swift; sourceTree = "<group>"; };
+		3003FDFB2FBE3AA60058EE20 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		3003FDFC2FBE3AA60058EE20 /* ObstacleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObstacleView.swift; sourceTree = "<group>"; };
+		3003FDFE2FBE3AA60058EE20 /* HighScoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoresView.swift; sourceTree = "<group>"; };
+		3003FE002FBE3AA60058EE20 /* LevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsView.swift; sourceTree = "<group>"; };
+		3003FE022FBE3AA60058EE20 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		3003FE032FBE3AA60058EE20 /* OnboardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageView.swift; sourceTree = "<group>"; };
+		3003FE042FBE3AA60058EE20 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3003FE062FBE3AA60058EE20 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3003FE092FBE3AA60058EE20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3003FE0A2FBE3AA60058EE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3003FE0B2FBE3AA60058EE20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3003FE0C2FBE3AA60058EE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3003FE0D2FBE3AA60058EE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3003FE0F2FBE3AA60058EE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3003FE112FBE3AA60058EE20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3003FE122FBE3AA60058EE20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30121B702FBB103C0071B4BB /* 164BirdyJump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 164BirdyJump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		609F889AE9AA638CDE16EB15 /* Pods-164BirdyJump.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-164BirdyJump.debug.xcconfig"; path = "Target Support Files/Pods-164BirdyJump/Pods-164BirdyJump.debug.xcconfig"; sourceTree = "<group>"; };
 		66619D7597EC4AFBAD921129 /* Pods-164BirdyJump.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-164BirdyJump.release.xcconfig"; path = "Target Support Files/Pods-164BirdyJump/Pods-164BirdyJump.release.xcconfig"; sourceTree = "<group>"; };
 		FD89DCEC261F9460CB175591 /* Pods_164BirdyJump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_164BirdyJump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		30121BAA2FBB10980071B4BB /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 30121B6F2FBB103C0071B4BB /* 164BirdyJump */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		30121BA22FBB10970071B4BB /* 164BirdyJump */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (30121BAA2FBB10980071B4BB /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = 164BirdyJump; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		30121B6D2FBB103C0071B4BB /* Frameworks */ = {
@@ -38,10 +156,218 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3003FDCC2FBE3AA60058EE20 /* LaunchFlow */ = {
+			isa = PBXGroup;
+			children = (
+				3003FDBF2FBE3AA60058EE20 /* CalendarGateEvaluator.swift */,
+				3003FDC02FBE3AA60058EE20 /* DeferredLaunchCanvas.swift */,
+				3003FDC12FBE3AA60058EE20 /* LaunchDestination.swift */,
+				3003FDC22FBE3AA60058EE20 /* LaunchFlowDebugOptions.swift */,
+				3003FDC32FBE3AA60058EE20 /* LaunchFlowLogger.swift */,
+				3003FDC42FBE3AA60058EE20 /* LaunchFlowResolver.swift */,
+				3003FDC52FBE3AA60058EE20 /* LaunchFlowSecrets.swift */,
+				3003FDC62FBE3AA60058EE20 /* LaunchSessionStore.swift */,
+				3003FDC72FBE3AA60058EE20 /* LaunchStagingState.swift */,
+				3003FDC82FBE3AA60058EE20 /* RemoteEntryProbe.swift */,
+				3003FDC92FBE3AA60058EE20 /* RemoteEntryURLComposer.swift */,
+				3003FDCA2FBE3AA60058EE20 /* RootWindowPresenter.swift */,
+				3003FDCB2FBE3AA60058EE20 /* WebDocumentSurfaceView.swift */,
+			);
+			path = LaunchFlow;
+			sourceTree = "<group>";
+		};
+		3003FDD32FBE3AA60058EE20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3003FDCD2FBE3AA60058EE20 /* Achievement.swift */,
+				3003FDCE2FBE3AA60058EE20 /* GameLevel.swift */,
+				3003FDCF2FBE3AA60058EE20 /* GameScore.swift */,
+				3003FDD02FBE3AA60058EE20 /* GameSettings.swift */,
+				3003FDD12FBE3AA60058EE20 /* LevelTheme.swift */,
+				3003FDD22FBE3AA60058EE20 /* Obstacle.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3003FDD52FBE3AA60058EE20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3003FDD42FBE3AA60058EE20 /* AppMarketingCopy.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3003FDD72FBE3AA60058EE20 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				3003FDD62FBE3AA60058EE20 /* BirdyDesignSystem.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		3003FDD92FBE3AA60058EE20 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3003FDD82FBE3AA60058EE20 /* Color+Birdy.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3003FDDC2FBE3AA60058EE20 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3003FDDA2FBE3AA60058EE20 /* DateFormatting.swift */,
+				3003FDDB2FBE3AA60058EE20 /* DisplayLinkDriver.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3003FDE12FBE3AA60058EE20 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3003FDD72FBE3AA60058EE20 /* Design */,
+				3003FDD92FBE3AA60058EE20 /* Extensions */,
+				3003FDDC2FBE3AA60058EE20 /* Helpers */,
+				3003FDDD2FBE3AA60058EE20 /* AppActions.swift */,
+				3003FDDE2FBE3AA60058EE20 /* AppLinks.swift */,
+				3003FDDF2FBE3AA60058EE20 /* DebugConfig.swift */,
+				3003FDE02FBE3AA60058EE20 /* OnboardingStorage.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3003FDE32FBE3AA60058EE20 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3003FDE22FBE3AA60058EE20 /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3003FDE52FBE3AA60058EE20 /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				3003FDE42FBE3AA60058EE20 /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		3003FDED2FBE3AA60058EE20 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3003FDE62FBE3AA60058EE20 /* BirdyAchievementCell.swift */,
+				3003FDE72FBE3AA60058EE20 /* BirdyCell.swift */,
+				3003FDE82FBE3AA60058EE20 /* BirdyLevelCell.swift */,
+				3003FDE92FBE3AA60058EE20 /* BirdyScoreCell.swift */,
+				3003FDEA2FBE3AA60058EE20 /* BirdyScreenLayout.swift */,
+				3003FDEB2FBE3AA60058EE20 /* BirdySliderCell.swift */,
+				3003FDEC2FBE3AA60058EE20 /* BirdyToggleCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3003FDF42FBE3AA60058EE20 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3003FDED2FBE3AA60058EE20 /* Cells */,
+				3003FDEE2FBE3AA60058EE20 /* BirdyGlassCard.swift */,
+				3003FDEF2FBE3AA60058EE20 /* BirdyHUDChip.swift */,
+				3003FDF02FBE3AA60058EE20 /* BirdyPrimaryButton.swift */,
+				3003FDF12FBE3AA60058EE20 /* BirdyScreenHeader.swift */,
+				3003FDF22FBE3AA60058EE20 /* BirdySkyBackground.swift */,
+				3003FDF32FBE3AA60058EE20 /* ThemedSkyBackground.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3003FDFD2FBE3AA60058EE20 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				3003FDF52FBE3AA60058EE20 /* AnimatedBirdView.swift */,
+				3003FDF62FBE3AA60058EE20 /* BirdyJumpView.swift */,
+				3003FDF72FBE3AA60058EE20 /* GameOverOverlay.swift */,
+				3003FDF82FBE3AA60058EE20 /* GameView.swift */,
+				3003FDF92FBE3AA60058EE20 /* LevelCompleteOverlay.swift */,
+				3003FDFA2FBE3AA60058EE20 /* LevelSelectStrip.swift */,
+				3003FDFB2FBE3AA60058EE20 /* MainMenuView.swift */,
+				3003FDFC2FBE3AA60058EE20 /* ObstacleView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		3003FDFF2FBE3AA60058EE20 /* HighScores */ = {
+			isa = PBXGroup;
+			children = (
+				3003FDFE2FBE3AA60058EE20 /* HighScoresView.swift */,
+			);
+			path = HighScores;
+			sourceTree = "<group>";
+		};
+		3003FE012FBE3AA60058EE20 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				3003FE002FBE3AA60058EE20 /* LevelsView.swift */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		3003FE052FBE3AA60058EE20 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				3003FE022FBE3AA60058EE20 /* OnboardingPage.swift */,
+				3003FE032FBE3AA60058EE20 /* OnboardingPageView.swift */,
+				3003FE042FBE3AA60058EE20 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		3003FE072FBE3AA60058EE20 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3003FE062FBE3AA60058EE20 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3003FE082FBE3AA60058EE20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3003FDE52FBE3AA60058EE20 /* Achievements */,
+				3003FDF42FBE3AA60058EE20 /* Components */,
+				3003FDFD2FBE3AA60058EE20 /* Game */,
+				3003FDFF2FBE3AA60058EE20 /* HighScores */,
+				3003FE012FBE3AA60058EE20 /* Levels */,
+				3003FE052FBE3AA60058EE20 /* Onboarding */,
+				3003FE072FBE3AA60058EE20 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3003FE132FBE3AA60058EE20 /* 164BirdyJump */ = {
+			isa = PBXGroup;
+			children = (
+				3003FDCC2FBE3AA60058EE20 /* LaunchFlow */,
+				3003FDD32FBE3AA60058EE20 /* Models */,
+				3003FDD52FBE3AA60058EE20 /* Resources */,
+				3003FDE12FBE3AA60058EE20 /* Utilities */,
+				3003FDE32FBE3AA60058EE20 /* ViewModels */,
+				3003FE082FBE3AA60058EE20 /* Views */,
+				3003FE092FBE3AA60058EE20 /* AppDelegate.swift */,
+				3003FE0A2FBE3AA60058EE20 /* Assets.xcassets */,
+				3003FE0B2FBE3AA60058EE20 /* ContentView.swift */,
+				3003FE0C2FBE3AA60058EE20 /* Info.plist */,
+				3003FE0E2FBE3AA60058EE20 /* LaunchScreen.storyboard */,
+				3003FE102FBE3AA60058EE20 /* Main.storyboard */,
+				3003FE112FBE3AA60058EE20 /* SceneDelegate.swift */,
+				3003FE122FBE3AA60058EE20 /* ViewController.swift */,
+			);
+			path = 164BirdyJump;
+			sourceTree = "<group>";
+		};
 		30121B672FBB103C0071B4BB = {
 			isa = PBXGroup;
 			children = (
-				30121BA22FBB10970071B4BB /* 164BirdyJump */,
+				3003FE132FBE3AA60058EE20 /* 164BirdyJump */,
 				30121B712FBB103C0071B4BB /* Products */,
 				B9AE3FD1FD86A0CABF7CDFA4 /* Pods */,
 				3BC9766B804F08F220C163D8 /* Frameworks */,
@@ -89,9 +415,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				30121BA22FBB10970071B4BB /* 164BirdyJump */,
-			);
 			name = 164BirdyJump;
 			productName = 164BirdyJump;
 			productReference = 30121B702FBB103C0071B4BB /* 164BirdyJump.app */;
@@ -135,6 +458,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3003FE142FBE3AA60058EE20 /* Assets.xcassets in Resources */,
+				3003FE162FBE3AA60058EE20 /* LaunchScreen.storyboard in Resources */,
+				3003FE172FBE3AA60058EE20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,10 +496,90 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3003FE182FBE3AA60058EE20 /* CalendarGateEvaluator.swift in Sources */,
+				3003FE192FBE3AA60058EE20 /* DeferredLaunchCanvas.swift in Sources */,
+				3003FE1A2FBE3AA60058EE20 /* LaunchDestination.swift in Sources */,
+				3003FE1B2FBE3AA60058EE20 /* LaunchFlowDebugOptions.swift in Sources */,
+				3003FE1C2FBE3AA60058EE20 /* LaunchFlowLogger.swift in Sources */,
+				3003FE1D2FBE3AA60058EE20 /* LaunchFlowResolver.swift in Sources */,
+				3003FE1E2FBE3AA60058EE20 /* LaunchFlowSecrets.swift in Sources */,
+				3003FE1F2FBE3AA60058EE20 /* LaunchSessionStore.swift in Sources */,
+				3003FE202FBE3AA60058EE20 /* LaunchStagingState.swift in Sources */,
+				3003FE212FBE3AA60058EE20 /* RemoteEntryProbe.swift in Sources */,
+				3003FE222FBE3AA60058EE20 /* RemoteEntryURLComposer.swift in Sources */,
+				3003FE232FBE3AA60058EE20 /* RootWindowPresenter.swift in Sources */,
+				3003FE242FBE3AA60058EE20 /* WebDocumentSurfaceView.swift in Sources */,
+				3003FE252FBE3AA60058EE20 /* Achievement.swift in Sources */,
+				3003FE262FBE3AA60058EE20 /* GameLevel.swift in Sources */,
+				3003FE272FBE3AA60058EE20 /* GameScore.swift in Sources */,
+				3003FE282FBE3AA60058EE20 /* GameSettings.swift in Sources */,
+				3003FE292FBE3AA60058EE20 /* LevelTheme.swift in Sources */,
+				3003FE2A2FBE3AA60058EE20 /* Obstacle.swift in Sources */,
+				3003FE2B2FBE3AA60058EE20 /* AppMarketingCopy.swift in Sources */,
+				3003FE2C2FBE3AA60058EE20 /* BirdyDesignSystem.swift in Sources */,
+				3003FE2D2FBE3AA60058EE20 /* Color+Birdy.swift in Sources */,
+				3003FE2E2FBE3AA60058EE20 /* DateFormatting.swift in Sources */,
+				3003FE2F2FBE3AA60058EE20 /* DisplayLinkDriver.swift in Sources */,
+				3003FE302FBE3AA60058EE20 /* AppActions.swift in Sources */,
+				3003FE312FBE3AA60058EE20 /* AppLinks.swift in Sources */,
+				3003FE322FBE3AA60058EE20 /* DebugConfig.swift in Sources */,
+				3003FE332FBE3AA60058EE20 /* OnboardingStorage.swift in Sources */,
+				3003FE342FBE3AA60058EE20 /* GameViewModel.swift in Sources */,
+				3003FE352FBE3AA60058EE20 /* AchievementsView.swift in Sources */,
+				3003FE362FBE3AA60058EE20 /* BirdyAchievementCell.swift in Sources */,
+				3003FE372FBE3AA60058EE20 /* BirdyCell.swift in Sources */,
+				3003FE382FBE3AA60058EE20 /* BirdyLevelCell.swift in Sources */,
+				3003FE392FBE3AA60058EE20 /* BirdyScoreCell.swift in Sources */,
+				3003FE3A2FBE3AA60058EE20 /* BirdyScreenLayout.swift in Sources */,
+				3003FE3B2FBE3AA60058EE20 /* BirdySliderCell.swift in Sources */,
+				3003FE3C2FBE3AA60058EE20 /* BirdyToggleCell.swift in Sources */,
+				3003FE3D2FBE3AA60058EE20 /* BirdyGlassCard.swift in Sources */,
+				3003FE3E2FBE3AA60058EE20 /* BirdyHUDChip.swift in Sources */,
+				3003FE3F2FBE3AA60058EE20 /* BirdyPrimaryButton.swift in Sources */,
+				3003FE402FBE3AA60058EE20 /* BirdyScreenHeader.swift in Sources */,
+				3003FE412FBE3AA60058EE20 /* BirdySkyBackground.swift in Sources */,
+				3003FE422FBE3AA60058EE20 /* ThemedSkyBackground.swift in Sources */,
+				3003FE432FBE3AA60058EE20 /* AnimatedBirdView.swift in Sources */,
+				3003FE442FBE3AA60058EE20 /* BirdyJumpView.swift in Sources */,
+				3003FE452FBE3AA60058EE20 /* GameOverOverlay.swift in Sources */,
+				3003FE462FBE3AA60058EE20 /* GameView.swift in Sources */,
+				3003FE472FBE3AA60058EE20 /* LevelCompleteOverlay.swift in Sources */,
+				3003FE482FBE3AA60058EE20 /* LevelSelectStrip.swift in Sources */,
+				3003FE492FBE3AA60058EE20 /* MainMenuView.swift in Sources */,
+				3003FE4A2FBE3AA60058EE20 /* ObstacleView.swift in Sources */,
+				3003FE4B2FBE3AA60058EE20 /* HighScoresView.swift in Sources */,
+				3003FE4C2FBE3AA60058EE20 /* LevelsView.swift in Sources */,
+				3003FE4D2FBE3AA60058EE20 /* OnboardingPage.swift in Sources */,
+				3003FE4E2FBE3AA60058EE20 /* OnboardingPageView.swift in Sources */,
+				3003FE4F2FBE3AA60058EE20 /* OnboardingView.swift in Sources */,
+				3003FE502FBE3AA60058EE20 /* SettingsView.swift in Sources */,
+				3003FE512FBE3AA60058EE20 /* AppDelegate.swift in Sources */,
+				3003FE522FBE3AA60058EE20 /* ContentView.swift in Sources */,
+				3003FE532FBE3AA60058EE20 /* SceneDelegate.swift in Sources */,
+				3003FE542FBE3AA60058EE20 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3003FE0E2FBE3AA60058EE20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3003FE0D2FBE3AA60058EE20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3003FE102FBE3AA60058EE20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3003FE0F2FBE3AA60058EE20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		30121B842FBB103E0071B4BB /* Debug */ = {
@@ -186,6 +592,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 164BirdyJump/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jumppy Bird - Feather Flight";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -197,7 +604,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-64BirdyJump";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rob.j6mpp7b1rdf35th3rfl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -222,6 +629,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 164BirdyJump/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jumppy Bird - Feather Flight";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -233,7 +641,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-64BirdyJump";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rob.j6mpp7b1rdf35th3rfl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
